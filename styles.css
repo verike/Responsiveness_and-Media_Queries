@@ -1,0 +1,131 @@
+/* general */
+@import url("https://fonts.google.com/specimen/Poppins");
+
+body{
+    background-color: hsl(0deg 100% 74%);
+}
+
+/* For Desktop Screen */
+
+/* @media screen and (min-width: 375px) and (max-width: 1440px) { */
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("./images/bg-intro-desktop.png");
+        font-family: Poppins;
+        font-size: 16px;
+    }
+    main  {
+        margin: 0;
+        width: 80%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .write-up {
+        display: flex;
+        flex-direction: column;
+        color: whitesmoke;
+        text-align:left;
+        width: 30vw;
+        margin: 20px;
+        padding: 10px;
+    }
+    .form-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        margin: 20px;
+    }
+    #claim-free {
+        background-color: hsl(154, 59%, 51%);
+        color: whitesmoke;
+        padding: 10px 75px;
+        border-radius: 4px;
+        border-color: hsl(153, 65%, 58%);
+        text-shadow: 1px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    input {
+        padding-left: 20px;
+        padding-top: 5px;
+        width: 25vh;
+        height: 20px;
+        border-radius: 5px;
+        border-color: rgb(255, 255, 255);
+        justify-content: center;
+        align-items: center;
+    }
+    .try-it-free {
+        margin-right: 1px;
+        color: whitesmoke;
+        background-color: hsl(247, 32%, 48%); 
+        padding: 10px 55px;
+        width: 220px;
+        font-size: smaller;
+    }
+    form {
+        margin: 0;
+        padding: 22px 20px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+    }
+    form small {
+        font-size: x-small;
+    }
+    form small a {
+        text-decoration: none;
+        color: red;
+        font-weight: 600;
+    }
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For mobile screen */
+
+/* @media screen and (max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("./images/bg-intro-desktop.png");
+        background-color: #cccccc;
+    }
+} */
